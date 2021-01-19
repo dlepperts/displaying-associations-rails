@@ -2,4 +2,6 @@
 
 <!-- Add code here to link to the post's category. -->
 
+<div><%= link_to @post.category, category_path(@post.category)%></div>
+
 <p><%= @post.description %></p>
